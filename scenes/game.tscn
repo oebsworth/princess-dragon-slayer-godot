@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dmfukpo84k8ab"]
+[gd_scene load_steps=14 format=3 uid="uid://dmfukpo84k8ab"]
 
 [ext_resource type="PackedScene" uid="uid://o8d2xa4k1ufa" path="res://scenes/player.tscn" id="1_telgr"]
 [ext_resource type="Texture2D" uid="uid://levplo1ijp3s" path="res://assets/sprites/world_tileset.png" id="2_cccc5"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bh1rmek1q20sl" path="res://scenes/coin.tscn" id="4_ux5sn"]
 [ext_resource type="PackedScene" uid="uid://slhwi57f308p" path="res://scenes/killzone.tscn" id="5_8p0su"]
 [ext_resource type="PackedScene" uid="uid://dhcihy26sthaq" path="res://scenes/slime.tscn" id="6_ygqm5"]
+[ext_resource type="FontFile" uid="uid://dvmh6pmy27lba" path="res://assets/fonts/PixelOperator8.ttf" id="7_ww1s1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t8p8s"]
 texture = ExtResource("2_cccc5")
@@ -524,3 +525,34 @@ autoplay = "move"
 
 [node name="Slime" parent="." instance=ExtResource("6_ygqm5")]
 position = Vector2(464, 32)
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="Labels"]
+offset_left = -183.0
+offset_top = -16.0
+offset_right = -86.0
+theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("7_ww1s1")
+theme_override_font_sizes/font_size = 8
+text = "Space to jump."
+
+[node name="Label2" type="Label" parent="Labels"]
+offset_left = 287.0
+offset_top = 25.0
+offset_right = 384.0
+offset_bottom = 41.0
+theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
+theme_override_fonts/font = ExtResource("7_ww1s1")
+theme_override_font_sizes/font_size = 8
+text = "Falling hurts!"
+
+[node name="Label3" type="Label" parent="Labels"]
+offset_left = 592.0
+offset_top = -103.0
+offset_right = 689.0
+offset_bottom = -87.0
+theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
+theme_override_fonts/font = ExtResource("7_ww1s1")
+theme_override_font_sizes/font_size = 8
+text = "Almost there..."
