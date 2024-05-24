@@ -1,6 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://dmfukpo84k8ab"]
+[gd_scene load_steps=15 format=3 uid="uid://dmfukpo84k8ab"]
 
 [ext_resource type="PackedScene" uid="uid://o8d2xa4k1ufa" path="res://scenes/player.tscn" id="1_telgr"]
+[ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_y4dmf"]
 [ext_resource type="Texture2D" uid="uid://levplo1ijp3s" path="res://assets/sprites/world_tileset.png" id="2_cccc5"]
 [ext_resource type="PackedScene" uid="uid://8txoq7x6pet8" path="res://scenes/platform.tscn" id="3_in4mu"]
 [ext_resource type="PackedScene" uid="uid://bh1rmek1q20sl" path="res://scenes/coin.tscn" id="4_ux5sn"]
@@ -455,6 +456,10 @@ _data = {
 [node name="Game" type="Node2D"]
 position = Vector2(-39, 4)
 metadata/_edit_horizontal_guides_ = [-108.0]
+
+[node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("1_y4dmf")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_bem5b")
