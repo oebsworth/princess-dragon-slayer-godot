@@ -414,5 +414,7 @@ layer_0/tile_data = PackedInt32Array(65535, 0, 0, 0, 0, 0, 196606, 0, 0, 196605,
 [node name="Player" parent="." instance=ExtResource("1_telgr")]
 position = Vector2(0, -20)
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, -10)
 zoom = Vector2(4, 4)
+position_smoothing_enabled = true
