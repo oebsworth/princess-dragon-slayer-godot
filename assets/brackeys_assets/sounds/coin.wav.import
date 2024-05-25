@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://b6w0vjbmtllyv"
-path="res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample"
+uid="uid://d3it2tannb4yv"
+path="res://.godot/imported/coin.wav-3d59243beac23e5bfd341d5521e7c196.sample"
 
 [deps]
 
-source_file="res://assets/sounds/power_up.wav"
-dest_files=["res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample"]
+source_file="res://assets/brackeys_assets/sounds/coin.wav"
+dest_files=["res://.godot/imported/coin.wav-3d59243beac23e5bfd341d5521e7c196.sample"]
 
 [params]
 

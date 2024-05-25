@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bb2wucjcrvw0j"]
 
-[ext_resource type="FontFile" uid="uid://dvmh6pmy27lba" path="res://assets/fonts/PixelOperator8.ttf" id="1_bdp0c"]
+[ext_resource type="FontFile" uid="uid://dvmh6pmy27lba" path="res://assets/brackeys_assets/fonts/PixelOperator8.ttf" id="1_bdp0c"]
 
 [node name="CoinCounter" type="Control"]
 layout_mode = 3

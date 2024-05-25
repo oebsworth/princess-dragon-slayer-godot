@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://0qf77owwmjcp"
-path="res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata"
+uid="uid://dvmh6pmy27lba"
+path="res://.godot/imported/PixelOperator8.ttf-8718164b89afa9041e85ff0f6c1676a0.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/PixelOperator8-Bold.ttf"
-dest_files=["res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata"]
+source_file="res://assets/brackeys_assets/fonts/PixelOperator8.ttf"
+dest_files=["res://.godot/imported/PixelOperator8.ttf-8718164b89afa9041e85ff0f6c1676a0.fontdata"]
 
 [params]
 
