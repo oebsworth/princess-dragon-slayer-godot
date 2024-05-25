@@ -1,4 +1,8 @@
-[gd_scene format=3 uid="uid://c3hugvh1ngcpi"]
+[gd_scene load_steps=4 format=3 uid="uid://c3hugvh1ngcpi"]
+
+[ext_resource type="Texture2D" uid="uid://7oq08u6yy16o" path="res://assets/touch_buttons/left_button.png" id="1_snif2"]
+[ext_resource type="Texture2D" uid="uid://bxyhkvywij6h8" path="res://assets/touch_buttons/right_button.png" id="2_3h13u"]
+[ext_resource type="Texture2D" uid="uid://coplitm4vtuif" path="res://assets/touch_buttons/jump_button.png" id="3_goonn"]
 
 [node name="TouchControls" type="Control"]
 layout_mode = 3
@@ -7,3 +11,21 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="LeftTouchButton" type="TouchScreenButton" parent="."]
+position = Vector2(64, 474)
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("1_snif2")
+action = "move_left"
+
+[node name="RightTouchButton" type="TouchScreenButton" parent="."]
+position = Vector2(211, 474)
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("2_3h13u")
+action = "move_right"
+
+[node name="JumpTouchButton" type="TouchScreenButton" parent="."]
+position = Vector2(974, 474)
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("3_goonn")
+action = "jump"
